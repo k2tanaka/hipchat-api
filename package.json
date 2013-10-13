@@ -1,0 +1,42 @@
+{
+  "name": "hipchat-client",
+  "version": "1.0.0",
+  "description": "Hipchat API client module.",
+  "keywords": [
+    "hipchat"
+  ],
+  "author": {
+    "name": "Kiyoshi Tanaka",
+    "email": "k2tanaka@gmail.com",
+    "url": "https://github.com/k2tanaka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ghe.amb.ca.local/shibucafe/crie-labi.git"
+  },
+  "dependencies": {
+    "request": ">=2.9.202"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.1",
+    "should": ">=0.6.1",
+    "sinon": ">=1.6.0"
+  },
+  "main": "./lib/client.js",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
