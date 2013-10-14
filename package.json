@@ -1,42 +1,32 @@
 {
   "name": "hipchat-client",
-  "version": "1.0.0",
-  "description": "Hipchat API client module.",
-  "keywords": [
-    "hipchat"
-  ],
-  "author": {
-    "name": "Kiyoshi Tanaka",
-    "email": "k2tanaka@gmail.com",
-    "url": "https://github.com/k2tanaka"
+  "version": "0.0.1",
+  "description": "HipChat API Client",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": ">=2.27.0"
+  },
+  "devDependencies": {
+    "mocha": ">=1.13.0",
+    "should": ">=2.0.1",
+    "sinon": ">=1.7.3"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/k2tanaka/hipchat-client.git"
   },
-  "dependencies": {
-    "request": ">=2.9.202"
-  },
-  "devDependencies": {
-    "mocha": ">=1.0.1",
-    "should": ">=0.6.1",
-    "sinon": ">=1.6.0"
-  },
-  "main": "./lib/client.js",
-  "engines": {
-    "node": ">=0.6.0"
-  },
-  "os": [
-    "darwin",
-    "linux"
+  "keywords": [
+    "hipchat"
   ],
-  "directories": {
-    "lib": "./lib"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ]
+  "author": "k2tanaka@gmamil.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k2tanaka/hipchat-client/issues"
+  }
 }
