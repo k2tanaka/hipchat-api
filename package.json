@@ -1,5 +1,5 @@
 {
-  "name": "hipchat-client",
+  "name": "hipchat-api",
   "version": "0.0.1",
   "description": "HipChat API Client",
   "main": "index.js",
@@ -22,7 +22,9 @@
     "url": "https://github.com/k2tanaka/hipchat-client.git"
   },
   "keywords": [
-    "hipchat"
+    "hipchat",
+    "api",
+    "client"
   ],
   "author": "k2tanaka@gmamil.com",
   "license": "MIT",
