@@ -1,6 +1,6 @@
 {
   "name": "hipchat-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HipChat API Client",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/k2tanaka/hipchat-client.git"
+    "url": "https://github.com/k2tanaka/hipchat-api.git"
   },
   "keywords": [
     "hipchat",
